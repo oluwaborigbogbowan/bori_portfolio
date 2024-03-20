@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <main id='about' className=' md:mt-12 mt-48 mb-40 md:mb-0 flex md:flex-row flex-col justify-center py-12 h-[90vh]  gap-12'>
+    <main id='about' className=' md:mt-12 mt-48 mb-40 md:mb-0 flex md:flex-row flex-col justify-center  py-12   gap-12'>
       <h2 className=' text-4xl font-bold self-start text-[#AAFF00]'>ABOUT</h2>
       <div className='text-xl flex flex-col gap-7'>
         <p>
