@@ -12,7 +12,7 @@ function Landing() {
           <button className='bg-[#AAFF00] text-black text-base font-semibold px-3 py-1 rounded-md mt-2'>Download CV</button>
           </Link>
       </div>
-      <div className='md:w-[40%] mt-3'>
+      <div className='md:w-[40%] mt-5'>
         <img className='w-full rounded-[50%]' src="/images/guy_with_laptop.jpg" alt="" />
       </div>
     </section>
