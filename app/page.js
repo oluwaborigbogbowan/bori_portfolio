@@ -7,7 +7,7 @@ import Skill from "./skill";
 
 export default function Home() {
   return (
-    <main className="bg-black min-h-screen px-32 py-8">
+    <main className="bg-black min-h-screen px-4 md:px-32 py-4 md:py-8">
       <Nav/>
       <Landing/>
       <About/>

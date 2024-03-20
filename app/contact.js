@@ -24,12 +24,14 @@ function Contact() {
       );
   };
   return (
-    <main id='contact' className='mt-20 h-[80%]'>
+    <main id='contact' className='md:mt-20 mt-10 h-[80%]'>
       <h2 className=' text-4xl font-bold self-start text-[#AAFF00] mb-5 text-center'>CONTACT</h2>
-      <section className='bg-[#212529] rounded-lg flex justify-between p-5 '>
-        <form ref={form} onSubmit={sendEmail} className='w-[35%] flex flex-col gap-4'>
+      <section className='bg-[#212529] rounded-lg flex md:flex-row flex-col-reverse justify-between p-5 '>
+        <form ref={form} onSubmit={sendEmail} className='md:w-[35%] flex flex-col gap-4'>
+          <div>
           <h3 className='text-4xl font-semibold mb-0'>Work with me</h3>
           <p className='mt-0 opacity-70 '>For enquires, contract, work, etc. Please fill the form below. </p>
+          </div>
           <div className='flex flex-col'>
           <label>Name</label>
           <input type="text" name="user_name" className='bg-[#495057] p-3 rounded-lg' />
@@ -44,9 +46,9 @@ function Contact() {
           </div>
           <button type='submit' className='bg-[#AAFF00] text-black rounded-lg p-1'>Send</button>
         </form>
-        <div className='w-[60%] '>
+        <div className='md:w-[60%] '>
           <iframe className='w-full h-full rounded-lg' src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=lsdpc housing estate meiran lagos&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" frameborder="0"></iframe>
-          <section className='bg-[#212529] w-[60%] relative bottom-[190px] left-[30px] p-2 rounded-lg'>
+          <section className='bg-[#495057] md:w-[60%] relative md:bottom-[190px] my-2 md:left-[30px] p-2 rounded-lg'>
             <div className='grid grid-cols-2 gap-1'>
               <div  >
               <h3 className=' text-sm '>ADDRESS</h3>
