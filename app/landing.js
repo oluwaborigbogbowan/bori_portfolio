@@ -8,9 +8,9 @@ function Landing() {
           <p  className='text-4xl font-semibold'>I'm <span className='text-[#AAFF00]'>Bori</span>.</p>
           <p className='text-3xl font-semibold'>A <span className='text-[#AAFF00]'>Frontend Engineer</span>.</p>
       <p className='text-3xl font-semibold'>I help in turning Ideas into Real Life products.</p>
-          <Link href=''>
+          <a href='/logos/Bori_cv.pdf' download >
           <button className='bg-[#AAFF00] text-black text-base font-semibold px-3 py-1 rounded-md mt-2'>Download CV</button>
-          </Link>
+          </a>
       </div>
       <div className='md:w-[40%] mt-5'>
         <img className='w-full rounded-[50%]' src="/images/guy_with_laptop.jpg" alt="" />
