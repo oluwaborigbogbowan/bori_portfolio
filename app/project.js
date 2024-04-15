@@ -10,7 +10,7 @@ function Project() {
             <img src="/images/vaav.PNG" alt="vaav" className='rounded-xl' />
             <h3  className=' text-xl mt-2 font-semibold'>VAAV Innovations</h3>
             <p className='mb-2'>The site had a landing page, an ecommerce page, and can also help you calculate the load been used in your house to recommend one for the companies devices. The site is also responsive.</p>
-            <Link href='' className=' border-black px-5 bg-[#AAFF00] p-1 text-black hover:opacity-50 text-lg'>
+            <Link href='https://vaav.vercel.app/' className=' border-black px-5 bg-[#AAFF00] p-1 text-black hover:opacity-50 text-lg'>
                 view site
             </Link>
         </div>
@@ -18,7 +18,7 @@ function Project() {
             <img src="/images/rocket.PNG" alt="rockets" className='rounded-xl' />
             <h3 className=' text-xl mt-2 font-semibold'>Acme Rockets</h3>
             <p className='mb-2'>The site is for a rocket company showing the different services they offer and the various prices. </p>
-            <Link href='' className=' border-black px-5 bg-[#AAFF00] p-1 text-black hover:opacity-50 text-lg'>
+            <Link href='https://tailwind-tut-indol.vercel.app/src/index.html' className=' border-black px-5 bg-[#AAFF00] p-1 text-black hover:opacity-50 text-lg'>
                 view site
             </Link>
         </div>
